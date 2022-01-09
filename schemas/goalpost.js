@@ -58,7 +58,7 @@ export default {
     },
     {
       name: "recreational04",
-      title: "Complete 1 series of David Attenborough",
+      title: "Complete 1 series of Environment",
       type: "card",
     },
     {
@@ -73,7 +73,7 @@ export default {
     },
     {
       name: "recreational07",
-      title: "Make Khushboo drive alone on traffic roads",
+      title: "Make wife drive alone on traffic roads",
       type: "card",
     },
     {
@@ -93,7 +93,7 @@ export default {
     },
     {
       name: "religious02",
-      title: "Learn 2 lines of pratrikaman every day",
+      title: "Learn 2 lines of pratikraman every day",
       type: "card",
     },
     {
