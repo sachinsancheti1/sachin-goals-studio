@@ -38,13 +38,15 @@ export default {
     select: {
       title: "title",
       author: "author",
-      publisher: "publisher"
+      publisher: "publisher",
+      cover: "cover"
     },
     prepare(selection) {
-      const {title, author, publisher} = selection
+      const {title, author, publisher, cover} = selection
       return {
         title: title,
-        subtitle: author ? `${author} - ${publisher}` : `${publisher}`
+        subtitle: author ? `${author} - ${publisher}` : `${publisher}`,
+        media: cover
       }
     }
   },
