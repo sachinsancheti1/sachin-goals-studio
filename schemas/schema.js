@@ -9,6 +9,7 @@ import blockContent from "./blockContent";
 import goalpost from "./goalpost";
 import card from "./card";
 import book from "./book";
+import additionalgoalpost from "./additionalgoalpost";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -24,6 +25,7 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     blockContent,
     card,
-    book
+    book,
+    additionalgoalpost
   ]),
 });
