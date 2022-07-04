@@ -14,7 +14,8 @@
     "@sanity/desk-tool",
     "dashboard-widget-vercel",
     "@sanity/dashboard",
-    "@sanity/vision"
+    "@sanity/vision",
+    "json-to-docs"
   ],
   "parts": [
     {
