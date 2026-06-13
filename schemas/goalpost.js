@@ -7,7 +7,7 @@ export default {
       name: "date",
       title: "Date",
       type: "datetime",
-      initialValue: Date(),
+      initialValue: () => new Date().toISOString(),
       validation: (Rule) => Rule.required(),
       options: {
         dateFormat: "YYYY-MM-DD",
