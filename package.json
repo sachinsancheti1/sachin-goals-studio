@@ -15,10 +15,12 @@
     "sanity"
   ],
   "dependencies": {
+    "@sanity/dashboard": "^6.0.0",
     "@sanity/vision": "^6.0.0",
     "react": "^19",
     "react-dom": "^19",
     "sanity": "^6.0.0",
+    "sanity-plugin-dashboard-dad-jokes": "^2.0.0",
     "styled-components": "^6"
   },
   "devDependencies": {
