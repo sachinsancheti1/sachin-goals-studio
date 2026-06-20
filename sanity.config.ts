@@ -3,6 +3,7 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import {dashboardConfig} from './dashboardConfig.js'
+import {media} from 'sanity-plugin-media'
 
 export default defineConfig({
   name: 'default',
@@ -13,6 +14,7 @@ export default defineConfig({
 
   plugins: [
     dashboardConfig,
+    media(),
     structureTool(),
     visionTool(),
   ],
